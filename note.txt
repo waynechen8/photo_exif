@@ -1,0 +1,14 @@
+python env info
+  version: 3.9.2
+  pillow version: 9.2.0
+  pillow-heif version: 0.6.1
+  this environment works
+
+# i have try python 3.7.7, this env can install pillow-heif, but exif object
+get_ifd() return None, i found it in exif object._data
+  pillow version: 8.1.0
+  pillow-heif version: 0.6.1
+  
+# try python 3.6.13, pip install pillow-heif fail
+build wheel fail
+ERROR: Could not build wheels for pillow-heif, which is required to install pyproject.toml-based projects；
